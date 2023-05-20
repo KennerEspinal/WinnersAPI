@@ -35,7 +35,7 @@ npm run dev
 _Las herramientas utilizadas son las siguientes_
 
 * [NodeJS](https://nodejs.org/en) - Entorno de Ejecucion
-* [MOngoDB](https://www.mongodb.com/) - Base de Datos
+* [MongoDB](https://www.mongodb.com/) - Base de Datos
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de Codigo
 * [JS](https://www.javascript.com/) - BackEnd
 * [Git](https://git-scm.com/) - Manejador de Versiones
