@@ -34,12 +34,12 @@ _npm run dev_
 
 _Las herramientas utilizadas son las siguientes_
 
-* [NodeJS](http://www.php.net/](https://nodejs.org/en)
-* [MOngoDB](https://www.microsoft.com/es-es/sql-server/sql-server-downloads](https://www.mongodb.com/) - Base de Datos
+* [NodeJS](https://nodejs.org/en)
+* [MOngoDB](https://www.mongodb.com/) - Base de Datos
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de Codigo
 * [JS](https://www.javascript.com/) - BackEnd
 * [Git](https://git-scm.com/) - Manejador de Versiones
-* [Swagger](https://html5.org/](https://swagger.io/) - FrontEnd
+* [Swagger](https://swagger.io/) - FrontEnd
 
 
 ## Autor ✒️
