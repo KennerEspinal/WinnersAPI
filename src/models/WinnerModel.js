@@ -5,10 +5,17 @@ const winnerSchema = mongoose.Schema(
         winner: {
             type: String,
             required: true
+        },
+        score: {
+            type: Number,
+            required: true
+        },
+        fecha: {
+            type: String,
+            required: true
         }
     },
     {
-        timestamps:true,
         versionKey:false
     }
 )

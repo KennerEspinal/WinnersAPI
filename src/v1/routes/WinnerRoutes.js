@@ -16,12 +16,12 @@ const router = express.Router();
  *         winner:
  *           type: string
  *           example: X
- *         createdAt:
+ *         score:
+ *           type: number
+ *           example: 1
+ *         fecha:
  *           type: string
- *           example: 2023-05-16T16:05:20.424Z
- *         updateAt:
- *           type: string
- *           example: 2023-05-16T16:05:20.424Z
+ *           example: Sat May 20 2023 15:08:19 GMT-0500 (hora estándar de Colombia)
  */
 
 
@@ -63,8 +63,16 @@ router
    *               winner:
    *                 type: string
    *                 description: Name winner
+   *               score: 
+   *                 type: number
+   *                 description: Score Winner
+   *               fecha:
+   *                 type: string
+   *                 description: Date Winner
    *             example:
    *               winner: "X or O"
+   *               score: 1
+   *               fecha: "Sat May 20 2023 15:08:19 GMT-0500 (hora estándar de Colombia)"
    *     responses:
    *       201:
    *         description: Winner created successfully.

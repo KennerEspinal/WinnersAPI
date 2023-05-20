@@ -1,5 +1,6 @@
 const express = require("express");
 const ConnectDB = require('./config/MongoDB')
+const cors = require('cors')
 require("dotenv").config();
 const WinnerRoutes = require('./v1/routes/WinnerRoutes')
 const { swaggerDocs: v1SwaggerDocs } = require("./v1/swagger")
@@ -9,6 +10,7 @@ const app = express();
 
 // middlewares
 app.use(express.json());
+app.use(cors())
 app.use("/api/v1/winners", WinnerRoutes);
 
 // routes
