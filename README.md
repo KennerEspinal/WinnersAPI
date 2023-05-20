@@ -9,9 +9,11 @@ _API desarrollada por Kenner Espinal a modo de practica y material educativo_
 _Para poder inicializar el sistema se requiere lo siguiente :_
 
 ```
-1. Node JS.
-2. MongoDB Atlas.
-3. Visual Studio Code (Editor de Codigo).
+1. Tener conocimientos Node y Express JS.
+2. Tener conocimientos MongoDB Atlas.
+3. Tener Conocimientos en JavaScript. 
+    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" title="JS"  alt="JavaScript" width="40" height="40">
+4. Visual Studio Code (Editor de Codigo).
 ```
 
 ## Instalación 🔧
