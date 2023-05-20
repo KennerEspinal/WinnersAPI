@@ -16,7 +16,7 @@ const options = {
       },
     ],
   },
-  apis: ["./src/v1/routes/WinnerRoutes.js", "./v1/routes/*.js"],
+  apis: ["./src/v1/routes/*.js"],
 };
 
 // Docs in JSON format
