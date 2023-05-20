@@ -24,7 +24,7 @@ const start = async () => {
     try {
         await ConnectDB(MONGODB_URI)
         app.listen(PORT, () => {
-            console.log(`API is listening on port ${HOST}${PORT}/api/v1/winners`);
+            console.log(`API is listening on port ${PORT}`);
             v1SwaggerDocs(app, PORT);
         })
     } catch (error) {
