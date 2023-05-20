@@ -16,16 +16,17 @@ _Para poder inicializar el sistema se requiere lo siguiente :_
 ```
 
 ## Instalación 🔧
-### ve al directorio donde vas a clonar el repositorio y corre el comando
+### ve al directorio donde vas a clonar el repositorio y corre el comando.
 ```
 git clone https://github.com/KennerEspinal/WinnersAPI.git
 
-Ingresas a la carpeta de WinnersAPI e instalas dependencias con el comando 
-
+```
+### Ingresas a la carpeta de WinnersAPI e instalas dependencias con el comando 
+````
 npm i
 npm install 
 
-```
+````
 
 ## Despliegue 📦
 
