@@ -40,7 +40,7 @@ router
    *       500:
    *         description: Internal Error.
    */
-  .get("/winners", getWinners)
+  .get("/", getWinners)
 
 
   //create winner
@@ -73,7 +73,7 @@ router
    *       500:
    *         description: Internal Error.
    */
-  .post("/winners", createWinner)
+  .post("/", createWinner)
 
   // get a winner
   
@@ -99,7 +99,7 @@ router
    *       500:
    *         description: Internal Error.
    */
-  .get("/winners/:id", getWinner)
+  .get("/:id", getWinner)
 
   // update a winner
   /**
@@ -138,7 +138,7 @@ router
    *       500:
    *         description: Internal Error.
    */
-  .put("/winners/:id", updateWinner)
+  .put("/:id", updateWinner)
 
   // delete a winner
   /**
@@ -163,6 +163,6 @@ router
    *       500:
    *         description: Internal Error.
    */
-  .delete("/winner/:id", deleteWinner)
+  .delete("/:id", deleteWinner)
 
 module.exports = router;
