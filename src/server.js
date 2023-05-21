@@ -20,8 +20,10 @@ app.get("/", (req, res) => {
 
 //mongodb connect
 const PORT = process.env.PORT;
+const MONGODB_URI = process.env.MONGODB_URI;
 const start = async () => {
     try {
+        await ConnectDB(MONGODB_URI)
         app.listen(PORT, () => {
             console.log(`API is listening on port ${PORT}`);
             v1SwaggerDocs(app, PORT);
